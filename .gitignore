@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+
+# Python cache / virtualenv artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Editor settings
+.vscode/
+
+# Local ML model artifacts
+*.h5
+*.keras

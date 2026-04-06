@@ -1,0 +1,15 @@
+Malaria Detection AI - Prediction Summary
+
+Image: C70P31_ThinF_IMG_20150819_141327_cell_77.png
+Prediction: Parasitized (Malaria Infected)
+Confidence Level: Moderate
+
+Raw Prediction Value: 0.2226
+Uninfected Probability: 22.26%
+Parasitized Probability: 77.74%
+
+Model: Fine-tuned ResNet50
+Input Size: 64 x 64 RGB
+
+Disclaimer:
+For research and educational use only. Not for clinical diagnosis.

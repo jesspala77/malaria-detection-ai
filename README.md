@@ -25,3 +25,11 @@ Deep learning app for classifying microscopy cell images as **Parasitized** or *
 ```bash
 pip install -r model/requirements.txt
 streamlit run model/app.py
+
+Assets
+Confusion Matrix
+Training Curve
+Prediction Examples
+Disclaimer
+
+For research and educational use only. Not for clinical diagnosis.

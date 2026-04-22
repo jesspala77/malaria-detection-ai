@@ -52,6 +52,21 @@ streamlit run app.py
 
 Recommended Python version: `3.10` or `3.11`.
 
+## Streamlit Community Cloud
+
+Deploy this app with the following settings:
+
+- Repository: `jesspala77/malaria-detection-ai`
+- Branch: `codex/polish-portfolio-app` until the PR is merged, then `main`
+- Entrypoint file: `model/app.py`
+- Python version: `3.11`
+
+Important:
+
+- Do not use the default newest Python version in Community Cloud for this app.
+- The current TensorFlow requirement (`>=2.16,<2.19`) does not install on Python 3.14, which causes deployment to fail before the app starts.
+- If the app was already deployed with the wrong Python version, delete it and redeploy with Python `3.11`.
+
 ## Project Highlights
 
 - Transfer learning with ResNet50 for binary medical image classification

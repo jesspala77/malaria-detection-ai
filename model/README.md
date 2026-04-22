@@ -153,6 +153,21 @@ This design choice reflects the high stakes of medical AI, where false confidenc
 
 Recommended Python version: 3.10 or 3.11 for the best TensorFlow compatibility on Windows.
 
+## Streamlit Community Cloud Deployment
+
+Use these deployment settings in Streamlit Community Cloud:
+
+1. Repository: `jesspala77/malaria-detection-ai`
+2. Branch: `codex/polish-portfolio-app` until the PR is merged, then `main`
+3. Entrypoint file: `model/app.py`
+4. Python version: `3.11`
+
+Important:
+
+- Community Cloud can fail on this project if it deploys with a newer Python version such as `3.14`.
+- The failure happens during dependency installation because `tensorflow>=2.16,<2.19` does not have compatible wheels for Python `3.14`.
+- If you already created the app with the wrong Python version, delete it and redeploy it with Python `3.11`.
+
 ## Disclaimer
 
 This application is for research and educational purposes only. It should not be used for clinical diagnosis. Always consult medical professionals for actual malaria screening.

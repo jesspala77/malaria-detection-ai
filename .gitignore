@@ -21,6 +21,8 @@ model/.venv/
 *.pb
 *.ckpt
 checkpoint
+!model/models/
+!model/models/best_malaria_model.keras
 
 # TensorFlow export / conversion artifacts
 tmp_savedmodel/

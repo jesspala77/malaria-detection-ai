@@ -8,6 +8,8 @@ __pycache__/
 .venv/
 venv/
 env/
+model/.venv/
+*.ipynb_checkpoints
 
 # Editor settings
 .vscode/
@@ -15,3 +17,19 @@ env/
 # Local ML model artifacts
 *.h5
 *.keras
+*.weights.h5
+*.pb
+*.ckpt
+checkpoint
+!model/models/
+!model/models/best_malaria_model.keras
+
+# TensorFlow export / conversion artifacts
+tmp_savedmodel/
+tmp_savedmodel_clean/
+model/tmp_savedmodel/
+model/tmp_savedmodel_clean/
+
+# Local runtime noise
+*.log
+*.tmp
